@@ -40,3 +40,20 @@ body {
 .CodeMirror{
   height: 100% !important;
 }
+
+.collapsed{
+  flex-grow: 0;
+}
+
+.collapsed .CodeMirror-scroll{
+  position: absolute;
+  overflow: hidden !important;
+}
+
+.expand-collapse-btn{
+  margin-left: .5rem;
+  background: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
