@@ -10,7 +10,7 @@ function App() {
       <html>
         <body> ${html} </body>
         <style> ${css} </style>
-        <scripts> ${js} </scripts>
+        <script> ${js} </script>
       </html>
   `
   return (
@@ -23,13 +23,13 @@ function App() {
             onChange={setHtml}
         />
         <Editor 
-            language='xml'
+            language='css'
             displayName='CSS'
             value={css}
             onChange={setCss}
         />
         <Editor 
-            language='xml'
+            language='javascript'
             displayName='JAVASCRIPT'
             value={js}
             onChange={setJs}
